@@ -25,6 +25,8 @@ git clone https://github.com/electron/electron-quick-start
 cd electron-quick-start
 # Install dependencies and run the app
 npm install && npm start
+# Build
+./node_modules/.bin/electron-packager . --all --overwrite
 ```
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
